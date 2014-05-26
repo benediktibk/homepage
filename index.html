@@ -3,40 +3,8 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="css/basic.css">
-	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-	<script type='text/javascript'>
-		$(function() 
-		{
-			var navigation = $('.navigation');
-			var navigationY = navigation.offset().top;
-			var isFixed = false;
-			var $window = $(window);
-			$window.scroll(function() 
-				{
-					var scrollTop = $window.scrollTop();
-					var shouldBeFixed = scrollTop > navigationY;
-					if (shouldBeFixed && !isFixed) 
-					{
-						navigation.css(
-						{
-							position: 'fixed',
-							top: 0,
-							left: navigation.offset().left,
-							width: navigation.width()
-						});
-						isFixed = true;
-					}
-					else if (!shouldBeFixed && isFixed)
-					{
-						navigation.css(
-						{
-							position: 'static'
-						});
-						isFixed = false;
-					}
-				});
-		});
-	</script>
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type='text/javascript' src="script/navigation.js"></script>
 	<title>Benedikt Schmidt</title>
 </head>
 
@@ -56,33 +24,49 @@
 </div>
 
 <div class="content">
-	<h1 id="home">Start</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
-	<ul>
-		<li>erster</li>
-		<li>zweiter</li>
-	</ul>
+	<div id="home">
+		<h1>Start</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+		<ul>
+			<li>erster</li>
+			<li>zweiter</li>
+		</ul>
+	</div>
 
-	<h1 id="person">Pers&ouml;nliches</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="person">
+		<h1>Pers&ouml;nliches</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 
-	<h1 id="education">Ausbildung</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="education">
+		<h1>Ausbildung</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 
-	<h1 id="work">Berufliches</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="work">
+		<h1>Berufliches</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 
-	<h1 id="projects">Projekte</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="projects">
+		<h1>Projekte</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 
-	<h1 id="publications">Publikationen</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="publications">
+		<h1>Publikationen</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 
-	<h1 id="leisure">Freizeit</h1>
-	<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	<div id="leisure">
+		<h1>Freizeit</h1>
+		<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+	</div>
 	
-	<h1 id="contact">Kontakt</h1>
-	blub@blob.ru
+	<div id="contact">
+		<h1>Kontakt</h1>
+		blub@blob.ru
+	</div>
 </div>
 
 </body>

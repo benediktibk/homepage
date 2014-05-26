@@ -4,6 +4,14 @@ body
 	color: black;
 }
 
+a.anchor
+{	
+	display: block; 
+	position: relative; 
+	top: -40px; 
+	visibility: hidden;
+}
+
 .navigation
 {
 	z-index: 2;
@@ -48,7 +56,9 @@ body
 .content
 {
 	position: absolute;
-	top: 100px;
-	left: 100px;
+	top: 75px;
+	left: 50%;
+	margin: 0px 0px 0px -400px;
+	max-width: 800px;
 	z-index: 1;
 }

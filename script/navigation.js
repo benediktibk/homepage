@@ -13,7 +13,7 @@ $(function()
 				navigation.css(
 				{
 					position: 'fixed',
-					top: 0,
+					top: 8,
 					left: navigation.offset().left,
 					width: navigation.width()
 				});

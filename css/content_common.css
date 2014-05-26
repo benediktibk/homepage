@@ -17,3 +17,11 @@ h1
 	text-transform: uppercase;
 	border-radius: 15px;
 } 
+
+td
+{
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 12pt;
+	padding: 3px;
+}

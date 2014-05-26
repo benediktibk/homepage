@@ -1,0 +1,32 @@
+.navigation ul
+{
+	list-style-type: none;
+	padding: 0;   
+	overflow: auto;
+}
+
+.navigation li
+{
+	float: left;
+}
+
+.navigation a:link,.navigation a:visited
+{
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #0066CC;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 15px;
+	margin: 4px;
+}
+
+.navigation a:hover,.navigation a:active
+{
+	background-color: #0052A3;
+} 

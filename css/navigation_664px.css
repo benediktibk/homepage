@@ -1,0 +1,11 @@
+.navigation
+{
+	z-index: 2;
+	position: absolute;
+	width: 664px;
+	height: 84px;
+	background-color: white;
+	top: 0px;
+	left: 50%;
+	margin-left: -332px;
+} 

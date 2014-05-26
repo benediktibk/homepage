@@ -13,3 +13,8 @@ body
 	max-width: 800px;
 	z-index: 1;
 }
+
+p
+{
+	text-align: justify;
+}

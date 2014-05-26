@@ -1,7 +1,7 @@
 .navigation
 {
 	z-index: 2;
-	position: absolute;
+	position: fixed;
 	width: 1328px;
 	height: 60px;
 	background-color: white;
@@ -9,3 +9,11 @@
 	left: 50%;
 	margin-left: -664px;
 }  
+
+a.anchor
+{	
+	display: block; 
+	position: relative; 
+	top: -60px; 
+	visibility: hidden;
+}

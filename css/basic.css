@@ -17,4 +17,19 @@ body
 p
 {
 	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 12pt;
+}
+
+h1
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #0066CC;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 15px;
 }

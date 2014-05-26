@@ -1,0 +1,9 @@
+.content
+{
+	z-index: 1;
+	position: absolute;
+	top: 96px;
+	left: 50%;
+	margin: 0px 0px 0px -400px;
+	max-width: 800px;
+} 

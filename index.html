@@ -3,6 +3,40 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script type='text/javascript'>
+		$(function() 
+		{
+			var navigation = $('.navigation');
+			var navigationY = navigation.offset().top;
+			var isFixed = false;
+			var $window = $(window);
+			$window.scroll(function() 
+				{
+					var scrollTop = $window.scrollTop();
+					var shouldBeFixed = scrollTop > navigationY;
+					if (shouldBeFixed && !isFixed) 
+					{
+						navigation.css(
+						{
+							position: 'fixed',
+							top: 0,
+							left: navigation.offset().left,
+							width: navigation.width()
+						});
+						isFixed = true;
+					}
+					else if (!shouldBeFixed && isFixed)
+					{
+						navigation.css(
+						{
+							position: 'static'
+						});
+						isFixed = false;
+					}
+				});
+		});
+	</script>
 	<title>Benedikt Schmidt</title>
 </head>
 

@@ -1,3 +1,9 @@
+body 
+{ 
+	background-color: white;
+	color: black;
+}
+
 .navigation ul
 {
 	list-style-type: none;

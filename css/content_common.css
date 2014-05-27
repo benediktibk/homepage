@@ -18,6 +18,16 @@ h1
 	border-radius: 15px;
 } 
 
+h2
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 12pt;
+	text-algin: right;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 td
 {
 	text-align: center;

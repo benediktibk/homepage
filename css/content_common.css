@@ -25,3 +25,8 @@ td
 	font-size: 12pt;
 	padding: 3px;
 }
+
+p#contactData
+{
+	text-align: center;
+}

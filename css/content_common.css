@@ -40,3 +40,11 @@ p#contactData
 {
 	text-align: center;
 }
+
+.videoSmall
+{
+	width: 420px;
+	height: 345px;
+	margin: 0px auto;
+	padding: 4px 4px 4px 4px;
+}

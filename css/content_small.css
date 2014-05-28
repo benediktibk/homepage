@@ -5,3 +5,10 @@
 	top: 96px;
 	margin: 0px 8px 0px 4px;
 }   
+
+.video
+{
+	width: 560px;
+	height: 315px;
+	margin: 0px auto;
+}

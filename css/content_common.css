@@ -65,3 +65,12 @@ p#contactData
 	width: 100%;
 	height: 100%;
 }
+
+div.left
+{
+	position: fixed;
+	top: 96px;
+	left: 0px;
+	height: 100%;
+	width: calc((100% - 800px)/2);
+}

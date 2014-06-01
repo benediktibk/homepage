@@ -18,7 +18,7 @@
 	font-family: Helvetica, sans-serif;
 	font-size: 12pt;
 	color: #FFFFFF;
-	background-color: #0066CC;
+	background-color: #003162;
 	text-align: center;
 	padding: 4px;
 	text-decoration: none;
@@ -29,5 +29,5 @@
 
 .navigation a:hover,.navigation a:active
 {
-	background-color: #0052A3;
+	background-color: #0066CC;
 } 

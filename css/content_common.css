@@ -62,11 +62,11 @@ p#contactData
 	height: 100%;
 }
 
-div.left
+div.side
 {
 	position: fixed;
 	top: 96px;
-	left: 0px;
+	right: 0px;
 	height: 100%;
 	width: calc((100% - 800px)/2);
 }

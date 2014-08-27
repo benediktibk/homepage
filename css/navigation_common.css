@@ -7,7 +7,7 @@
 .navigation a:link,.navigation a:visited
 {
 	display: block;
-	width: 250px;
+	width: 100%;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
 	font-size: 12pt;

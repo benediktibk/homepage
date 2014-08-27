@@ -2,18 +2,12 @@
 {
 	list-style-type: none;
 	padding: 0;   
-	overflow: auto;
-}
-
-.navigation li
-{
-	float: left;
 }
 
 .navigation a:link,.navigation a:visited
 {
 	display: block;
-	width: 150px;
+	width: 250px;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
 	font-size: 12pt;

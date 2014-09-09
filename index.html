@@ -5,23 +5,22 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/basic.css"/>
 	<link rel="stylesheet" type="text/css" href="css/navigation_common.css"/>
-	<link rel='stylesheet' type="text/css" href='css/navigation_small.css' media="screen and (max-width: 1249px)"/>
-	<link rel='stylesheet' type="text/css" href='css/navigation_big.css' media="screen and (min-width: 1250px)"/>
+	<link rel="stylesheet" type="text/css" href="css/navigation_small.css" media="screen and (max-width: 1249px)"/>
+	<link rel="stylesheet" type="text/css" href="css/navigation_big.css" media="screen and (min-width: 1250px)"/>
 	<link rel="stylesheet" type="text/css" href="css/content_common.css"/>
-	<link rel='stylesheet' type="text/css" href='css/content_small.css' media="screen and (max-width: 1249px)"/>
-	<link rel='stylesheet' type="text/css" href='css/content_big.css' media="screen and (min-width: 1250px)"/>
+	<link rel="stylesheet" type="text/css" href="css/content_small.css" media="screen and (max-width: 1249px)"/>
+	<link rel="stylesheet" type="text/css" href="css/content_big.css" media="screen and (min-width: 1250px)"/>
+	<script src="script/navigation.js"></script>
 	<title>Benedikt Schmidt</title>
 </head>
 
-<body>
+<body onclick="toggleNavigation()">
 
-<div class="navigationTop">
-	<ul>
-		<li><a href="#">Navigation</a></li>
-	</ul>
+<div id="navigationTopContainer">
+	<button onclick="toggleNavigation()" id="navigationTopButton">Navigation</button>
 </div>
 
-<div class="navigation">
+<div class="navigation" id="navigationContainer">
 	<ul>
 		<li><a href="#">Start</a></li>
 		<li><a href="#person">Pers&ouml;nliches</a></li>

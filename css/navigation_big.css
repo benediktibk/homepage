@@ -28,7 +28,7 @@ div.navigation
 	background-color: #0066CC;
 }
 
-div.navigationTop
+div#navigationTopContainer
 {
 	display: none;
 }

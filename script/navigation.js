@@ -1,17 +1,39 @@
-$(function() 
+function enableNavigation()
 {
-	var navigation = $('.navigation');
-	var navigationY = navigation.offset().top;
-	var isFixed = false;
-	var $window = $(window);
-	$window.scroll(function() 
-		{
-			navigation.css(
-			{
-				position: 'fixed',
-				top: 0,
-				left: navigation.offset().left,
-				width: navigation.width()
-			});
-		});
-}); 
+	var navigationTopContainer = document.getElementById("navigationTopContainer")
+	var navigationContainer = document.getElementById("navigationContainer")
+	
+	navigationTopContainer.style.display = "none"
+	navigationContainer.style.display = "inline-block"
+}
+
+function disableNavigation()
+{
+	var navigationTopContainer = document.getElementById("navigationTopContainer")
+	var navigationContainer = document.getElementById("navigationContainer")
+	
+	navigationTopContainer.style.display = "inline-block"
+	navigationContainer.style.display = "none"
+}
+
+function toggleNavigation()
+{
+	var bigDevice = window.matchMedia("screen and (min-width: 1250px)");
+	
+	if (bigDevice.matches)
+	{	
+		enableNavigation()
+		return
+	}
+	
+	var navigationTopContainer = document.getElementById("navigationTopContainer")
+	var navigationContainer = document.getElementById("navigationContainer")
+	var navigationCurrentVisible = navigationTopContainer.style.display == "none"
+	
+	if (navigationCurrentVisible)
+		disableNavigation()
+	else
+		enableNavigation()
+	
+	event.stopPropagation()
+}

@@ -1,4 +1,4 @@
-div.navigation,div.navigationTop
+div.navigation,div#navigationTopContainer
 {
 	z-index: 2;
 	position: fixed;
@@ -14,7 +14,7 @@ div.navigation,div.navigationTop
 	margin: 0px auto;
 }
 
-.navigation a:link,.navigation a:visited,.navigationTop a:link,.navigationTop a:visited
+.navigation a:link,.navigation a:visited,button#navigationTopButton
 {
 	display: block;
 	width: 100%;
@@ -25,9 +25,10 @@ div.navigation,div.navigationTop
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-size: 2.5em;
 }
 
-.navigation a:hover,.navigation a:active,.navigationTop a:hover,.navigationTop a:active
+.navigation a:hover,.navigation a:active,button#navigationTopButton:hover
 {
 	background-color: #0066CC;
 } 
@@ -35,9 +36,4 @@ div.navigation,div.navigationTop
 div.navigation
 {
 	display: none;
-}
-
-li
-{
-	font-size: 2.5em;
 }

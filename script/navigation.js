@@ -42,14 +42,12 @@ function toggleNavigation()
 	event.stopPropagation()
 }
 
-function disableNavigationOnSmallDevices()
+function adaptNavigationToDeviceSize()
 {
 	if (isBigDevice())
-	{	
 		enableNavigation()
-		return
-	}
-	
-	disableNavigation()
+	else
+		disableNavigation()
+		
 	event.stopPropagation()
 }

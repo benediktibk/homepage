@@ -30,3 +30,9 @@ img.side
 {
 	display: none;
 }
+
+a.anchor
+{
+	position: relative;
+	top: -60px;
+}

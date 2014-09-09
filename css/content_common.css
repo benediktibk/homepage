@@ -75,3 +75,9 @@ img.bigPicture
 {
 	width: 100%;
 }
+
+a.anchor
+{
+	display: block;
+	visibility: hidden;
+}

@@ -16,11 +16,15 @@ function disableNavigation()
 	navigationContainer.style.display = "none"
 }
 
-function toggleNavigation()
+function isBigDevice()
 {
-	var bigDevice = window.matchMedia("screen and (min-width: 1250px)");
-	
-	if (bigDevice.matches)
+	var bigDevice = window.matchMedia("screen and (min-width: 1250px)")
+	return bigDevice.matches
+}
+
+function toggleNavigation()
+{	
+	if (isBigDevice())
 	{	
 		enableNavigation()
 		return
@@ -35,5 +39,17 @@ function toggleNavigation()
 	else
 		enableNavigation()
 	
+	event.stopPropagation()
+}
+
+function disableNavigationOnSmallDevices()
+{
+	if (isBigDevice())
+	{	
+		enableNavigation()
+		return
+	}
+	
+	disableNavigation()
 	event.stopPropagation()
 }

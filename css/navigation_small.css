@@ -1,23 +1,40 @@
-.navigation
-{
-	z-index: 2;
-	position: fixed;
-	background-color: white;
-	width: 98%;
-	margin-left: auto;
-	margin-right: auto;
-	display: none;
-}
-
-.navigationTop
+div.navigation,div.navigationTop
 {
 	z-index: 2;
 	position: fixed;
 	top: 0px;
+	left: 0px;
+	width: 100%;
 	background-color: white;
-	margin: 0px 0px 0px 0px;
-	width: 98%;
-	display: inline;
+}
+
+ul.navigation,ul.navigationTop
+{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.navigation a:link,.navigation a:visited,.navigationTop a:link,.navigationTop a:visited
+{
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #003162;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navigation a:hover,.navigation a:active,.navigationTop a:hover,.navigationTop a:active
+{
+	background-color: #0066CC;
+} 
+
+div.navigation
+{
+	display: none;
 }
 
 li

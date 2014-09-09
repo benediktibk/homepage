@@ -1,13 +1,38 @@
-.navigation
+div.navigation
 {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 250px;
 	display: inline;
 }
 
-.navigationTop
+.navigation a:link,.navigation a:visited
+{
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #003162;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 15px;
+	margin: 4px;
+}
+
+.navigation a:hover,.navigation a:active
+{
+	background-color: #0066CC;
+} 
+
+li.navigation
+{
+	width: 250px;
+}
+
+div.navigationTop
 {
 	display: none;
 }

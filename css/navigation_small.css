@@ -3,19 +3,24 @@
 	z-index: 2;
 	position: fixed;
 	background-color: white;
-	width: 100%;
+	width: 98%;
 	margin-left: auto;
 	margin-right: auto;
 	display: none;
 }
 
-.navigationTop div
+.navigationTop
 {
 	z-index: 2;
 	position: fixed;
+	top: 0px;
 	background-color: white;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0px 0px 0px 0px;
+	width: 98%;
 	display: inline;
+}
+
+li
+{
+	font-size: 2em;
 }

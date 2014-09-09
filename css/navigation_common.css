@@ -4,13 +4,12 @@
 	padding: 0;   
 }
 
-.navigation a:link,.navigation a:visited,.navigationTop li
+.navigation a:link,.navigation a:visited,.navigationTop a:link,.navigationTop a:visited
 {
 	display: block;
 	width: 100%;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
-	font-size: 12pt;
 	color: #FFFFFF;
 	background-color: #003162;
 	text-align: center;
@@ -21,7 +20,7 @@
 	margin: 4px;
 }
 
-.navigation a:hover,.navigation a:active
+.navigation a:hover,.navigation a:active,.navigationTop a:hover,.navigationTop a:active
 {
 	background-color: #0066CC;
 } 

@@ -2,8 +2,9 @@ div.navigation
 {
 	position: fixed;
 	top: 0px;
-	left: 0px;
+	left: calc(((100% - 700px)/2 - 240px)/2);
 	display: inline;
+	width: 240px;
 }
 
 .navigation a:link,.navigation a:visited
@@ -25,11 +26,6 @@ div.navigation
 .navigation a:hover,.navigation a:active
 {
 	background-color: #0066CC;
-} 
-
-li.navigation
-{
-	width: 250px;
 }
 
 div.navigationTop

@@ -8,7 +8,7 @@ div.navigation,div.navigationTop
 	background-color: white;
 }
 
-ul.navigation,ul.navigationTop
+.navigation ul,.navigationTop ul
 {
 	width: 100%;
 	margin: 0px auto;
@@ -39,5 +39,5 @@ div.navigation
 
 li
 {
-	font-size: 2em;
+	font-size: 2.5em;
 }

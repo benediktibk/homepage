@@ -1,10 +1,10 @@
-.navigation ul
+.navigation ul,.navigationTop ul
 {
 	list-style-type: none;
 	padding: 0;   
 }
 
-.navigation a:link,.navigation a:visited
+.navigation a:link,.navigation a:visited,.navigationTop li
 {
 	display: block;
 	width: 100%;

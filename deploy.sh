@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 temporaryFolder=/tmp/homepage_deployment
+rsyncTemporaryFolder=/tmp/homepage_rsync
 ftpMountPoint=/tmp/homepage_ftp
 ftpServer=ftp://ftp32.world4you.com
 ftpUser=ftp7917541
@@ -37,11 +38,11 @@ if [ ${returnValue} -ne 0 ];
 	exit 1
 fi
 
-echo "delete old data on the server"
-rm -fR ${ftpMountPoint}/*
-
 echo "copy new data to the server"
-rsync -a -v --progress --delete --human-readable ${temporaryFolder}/* ${ftpMountPoint}/
+rm -fR ${rsyncTemporaryFolder}
+mkdir ${rsyncTemporaryFolder}
+rsync -r -v -t --delete --human-readable --temp-dir=${rsyncTemporaryFolder} ${temporaryFolder}/ ${ftpMountPoint}
+chmod -R 755 ${ftpMountPoint}/*
 
 echo "unmount the ftp server"
-fusermount -u ${temporaryFolder}
+fusermount -u ${ftpMountPoint}

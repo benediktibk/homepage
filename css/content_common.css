@@ -19,8 +19,9 @@ h1
 h2
 {
 	font-family: Helvetica, sans-serif;
-	text-algin: right;
+	text-align: center;
 	color: black;
+	background-color: white;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -40,11 +41,13 @@ td
 
 tr.odd
 {
+	color: black;
 	background-color: #96CBFF;
 }
 
 tr.even
 {
+	color: black;
 	background-color: #FFFFFF;
 }
 

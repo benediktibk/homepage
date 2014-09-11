@@ -20,7 +20,7 @@ div.navigation,div#navigationTopContainer
 	width: 100%;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
-	color: #FFFFFF;
+	color: white;
 	background-color: #003162;
 	text-align: center;
 	text-decoration: none;
@@ -30,6 +30,7 @@ div.navigation,div#navigationTopContainer
 
 .navigation a:hover,.navigation a:active,button#navigationTopButton:hover
 {
+	color: white;
 	background-color: #0066CC;
 } 
 

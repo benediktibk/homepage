@@ -38,11 +38,11 @@ if [ ${returnValue} -ne 0 ];
 fi
 
 echo "delete old data from the server"
-rm -fR ${ftpMountPoint}/*
+rm -fR ${ftpMountPoint}/homepage/*
 
 echo "copy new data to the server"
-cp --recursive ${temporaryFolder}/* ${ftpMountPoint}/
-chmod --recursive 755 ${ftpMountPoint}/*
+cp --recursive ${temporaryFolder}/* ${ftpMountPoint}/homepage/
+chmod --recursive 755 ${ftpMountPoint}/homepage/*
 
 echo "unmount the ftp server"
 fusermount -u ${ftpMountPoint}

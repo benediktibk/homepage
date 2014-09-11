@@ -97,3 +97,18 @@ a.anchor
 	display: block;
 	visibility: hidden;
 }
+
+img#miller_amplifier_schematic
+{
+	width: 40%;
+}
+
+img#miller_amplifier_layout_routed
+{
+	width: 60%;
+}
+
+img.halfPicture
+{
+	width: 50%;
+}

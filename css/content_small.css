@@ -36,11 +36,3 @@ a.anchor
 	position: relative;
 	top: -60px;
 }
-
-img#navigationIcon
-{
-	position: fixed;
-	right: 10px;
-	top: 8px;
-	height: 2em;
-}

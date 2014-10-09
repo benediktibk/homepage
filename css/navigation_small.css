@@ -39,3 +39,11 @@ div.navigation
 {
 	display: none;
 }
+
+img#navigationIcon
+{
+	position: fixed;
+	right: 10px;
+	top: 5px;
+	height: 2.5em;
+}

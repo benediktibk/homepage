@@ -42,13 +42,13 @@ td
 tr.odd
 {
 	color: black;
-	background-color: #96CBFF;
+	background-color: #FFFFFF;
 }
 
 tr.even
 {
 	color: black;
-	background-color: #FFFFFF;
+	background-color: #96CBFF;
 }
 
 p#contactData

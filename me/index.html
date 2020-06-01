@@ -1,39 +1,33 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="css/basic.css"/>
-	<link rel="stylesheet" type="text/css" href="css/navigation_common.css"/>
-	<link rel="stylesheet" type="text/css" href="css/navigation_small.css" media="screen and (max-width: 1249px)"/>
-	<link rel="stylesheet" type="text/css" href="css/navigation_big.css" media="screen and (min-width: 1250px)"/>
-	<link rel="stylesheet" type="text/css" href="css/content_common.css"/>
-	<link rel="stylesheet" type="text/css" href="css/content_small.css" media="screen and (max-width: 1249px)"/>
-	<link rel="stylesheet" type="text/css" href="css/content_big.css" media="screen and (min-width: 1250px)"/>
-	<link rel="stylesheet" type="text/css" href="css/youtube.css"/>
-	<script src="script/navigation.js"></script>
-	<script src="script/youtube.js"></script>
-	<title>Benedikt Schmidt</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/basic.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/youtube.css" />
+    <script src="script/youtube.js"></script>
+    <title>Benedikt Schmidt</title>
 </head>
+<body>
 
-<body onclick="adaptNavigationToDeviceSize()" onresize="adaptNavigationToDeviceSize()">
-
-<div id="navigationTopContainer">
-	<button onclick="toggleNavigation()" id="navigationTopButton">Navigation</button>
-	<img src="pic/navicon.svg" alt="" id="navigationIcon"/>
-</div>
-
-<div class="navigation" id="navigationContainer">
-	<ul>
-		<li><a href="#">Start</a></li>
-		<li><a href="#person">Persönliches</a></li>
-		<li><a href="#projects">Projekte</a></li>
-		<li><a href="#education">Ausbildung</a></li>
-		<li><a href="#work">Berufliches</a></li>
-		<li><a href="#leisure">Freizeit</a></li>
-		<li><a href="#publications">Publikationen</a></li>
-		<li><a href="#contact">Kontakt</a></li>
-	</ul>
+<div id="header">
+    <div id="portrait">
+        <img src="pic/portrait.png" height="200"/>
+    </div>
+    <div id="headerRight">
+        <div id="quote">
+            <p>"Do not let circumstances control you. Change them to fit your needs."</p>
+        </div>
+        <div id="headerLinks">
+            <ul>
+                <li><a href="#impressum">Impressum</a></li>
+                <li><a href="https://at.linkedin.com/in/benedikt-schmidt-0b9516127">Linked In</a></li>
+                <li><a href="https://www.xing.com/profile/Benedikt_Schmidt22">Xing</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <div class="content">
@@ -132,10 +126,6 @@
 	Pradler Straße 69, Stiege 1<br>
 	A-6020 Innsbruck<br>
 	benediktibk@outlook.com<br></p>
-</div>
-
-<div class="side">
-	<img src="pic/benedikt_schmidt.png" class="bigPicture" alt="Benedikt Schmidt">
 </div>
 
 </body>

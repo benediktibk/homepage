@@ -1,0 +1,22 @@
+div#header 
+{ 
+    height: 200px;
+    display: flex;
+}
+
+div#portrait 
+{
+    flex: auto;
+}
+
+div#headerRight 
+{
+    flex: 80%;
+}
+
+div#quote {
+    font-size: 2em;
+}
+
+div#headerLinks {
+}

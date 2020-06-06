@@ -1,22 +1,78 @@
-div#header 
-{ 
+div#header {
     height: 200px;
+    position: relative;
+}
+
+div#headerContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
     display: flex;
 }
 
-div#portrait 
-{
+div#portrait {
     flex: auto;
 }
 
-div#headerRight 
-{
+img#portrait {
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+div#headerRight {
     flex: 80%;
 }
 
 div#quote {
     font-size: 2em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 div#headerLinks {
+    float: right;
+}
+
+div#headerBackground {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+img#headerBackground {
+    margin-top: -200px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+ul#headerLinks {
+    list-style-type: none;
+}
+
+li.headerLinkItem {
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+li.headerLinkItem a {
+    text-decoration: none;
+    color: black;
+}
+
+li.headerLinkItem a:hover {
+    color: gray;
+}
+
+img#linkedInLogo {
+    height: 18px;
+}
+
+img#xingLogo {
+    height: 18px;
 }

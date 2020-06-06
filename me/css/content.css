@@ -1,77 +1,62 @@
-p
-{
+p {
 	text-align: justify;
 	font-family: Georgia, serif;
 }
 
-h1
-{
+h1 {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 	color: #FFFFFF;
 	background-color: #0066CC;
 	padding: 4px;
 	text-decoration: none;
-	text-transform: uppercase;
-	border-radius: 15px;
-} 
-
-h2
-{
-	font-family: Helvetica, sans-serif;
-	text-align: center;
-	color: black;
-	background-color: white;
-	text-decoration: none;
-	text-transform: uppercase;
 }
 
-table
-{
+h2 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+table {
 	border-width: 0px;
 	border-spacing: 0px;
 }
 
-td
-{
+td {
 	text-align: center;
 	font-family: Georgia, serif;
 	padding: 3px;
 }
 
-tr.odd
-{
+tr.odd {
 	color: black;
 	background-color: #FFFFFF;
 }
 
-tr.even
-{
+tr.even {
 	color: black;
 	background-color: #96CBFF;
 }
 
-p#contactData
-{
+p#contactData {
 	text-align: center;
 }
 
-.videoWrapper
-{
+.videoWrapper {
 	width: 100%;
 	display: inline-block;
 	position: relative;
 }
 
-.videoWrapper:after
-{
+.videoWrapper:after {
 	padding-top: 56.25%;
 	display: block;
 	content: '';
 }
 
-.video
-{
+.video {
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -81,37 +66,19 @@ p#contactData
 	height: 100%;
 }
 
-div.side
-{
-	position: fixed;
-	top: 96px;
-	right: 0px;
-	height: 100%;
-	width: calc((100% - 800px)/2);
-}
-
-img.bigPicture
-{
-	width: 100%;
-}
-
-a.anchor
-{
+a.anchor {
 	display: block;
 	visibility: hidden;
 }
 
-img#miller_amplifier_schematic
-{
+img#miller_amplifier_schematic {
 	width: 40%;
 }
 
-img#miller_amplifier_layout_routed
-{
+img#miller_amplifier_layout_routed {
 	width: 60%;
 }
 
-img.halfPicture
-{
+img.halfPicture {
 	width: 50%;
 }

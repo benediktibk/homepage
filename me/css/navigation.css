@@ -1,5 +1,5 @@
 ﻿div#navigation {
-    height: 50px;
+    height: 57px;
     background-color: #0066CC;
 }
 
@@ -17,7 +17,9 @@ li.navigationItem {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 100%;
-    font-size: 25px;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 li.navigationItem a {
@@ -31,4 +33,4 @@ li.navigationItem a {
 
 li.navigationItem a:hover {
     background-color: #0055BB;
-}
+} 

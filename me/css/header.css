@@ -76,3 +76,8 @@ img#linkedInLogo {
 img#xingLogo {
     height: 18px;
 }
+
+div#quote p {
+    text-align: center;
+    font-style: italic;
+}

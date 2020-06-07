@@ -28,14 +28,16 @@ div#headerRight {
 }
 
 div#quote {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 div#headerLinks {
-    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 div#headerBackground {
@@ -45,9 +47,10 @@ div#headerBackground {
 }
 
 img#headerBackground {
-    margin-top: -200px;
+    position: absolute;
+    bottom: 0px;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 ul#headerLinks {
@@ -76,4 +79,12 @@ img.headerLogo {
 div#quote p {
     text-align: center;
     font-style: italic;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#title {
+    margin-top: 50px;
 }

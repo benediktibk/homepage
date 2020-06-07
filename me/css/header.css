@@ -69,11 +69,7 @@ li.headerLinkItem a:hover {
     color: gray;
 }
 
-img#linkedInLogo {
-    height: 18px;
-}
-
-img#xingLogo {
+img.headerLogo {
     height: 18px;
 }
 

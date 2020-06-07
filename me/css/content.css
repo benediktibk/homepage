@@ -71,14 +71,14 @@ a.anchor {
 	visibility: hidden;
 }
 
-img#miller_amplifier_schematic {
-	width: 40%;
+div.imageWrapper {
+    display: flex;
+    flex-direction: row;
 }
 
-img#miller_amplifier_layout_routed {
-	width: 60%;
-}
-
-img.halfPicture {
-	width: 50%;
+img.contentImage {
+    margin: auto;
+    height: 300px;
+    width: auto;
+    padding: 5px;
 }

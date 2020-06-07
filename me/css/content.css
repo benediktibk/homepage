@@ -82,6 +82,7 @@ a.anchor {
 div.imageWrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 img.contentImage {

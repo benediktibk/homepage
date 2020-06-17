@@ -28,6 +28,7 @@ div#headerRight {
 }
 
 div#quote {
+    margin-top: 30px;
     font-size: 1.5em;
     text-align: center;
     margin-left: 10px;
@@ -50,7 +51,7 @@ img#headerBackground {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    opacity: 0.2;
+    opacity: 1;
 }
 
 ul#headerLinks {
@@ -86,5 +87,5 @@ div#quote p {
 }
 
 div#title {
-    margin-top: 50px;
+    margin-top: 25px;
 }

@@ -37,6 +37,7 @@ div#headerBackground {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    background-color: white;
 }
 
 img#headerBackground {
@@ -75,11 +76,6 @@ div#quote p {
     font-style: italic;
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-}
-
-div#title h1 {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }

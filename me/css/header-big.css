@@ -10,3 +10,8 @@
 div#title {
     margin-top: 8px;
 }
+
+div#title h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}

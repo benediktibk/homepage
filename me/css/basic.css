@@ -24,6 +24,7 @@ h2 {
     background-color: #0066CC;
     padding: 4px;
     text-decoration: none;
+    margin-top: 50px;
 }
 
 h3 {
@@ -31,6 +32,7 @@ h3 {
     text-align: center;
     color: black;
     text-decoration: none;
+    margin-top: 40px;
 }
 
 table {

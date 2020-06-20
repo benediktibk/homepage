@@ -1,5 +1,5 @@
 ﻿div#navigation {
-    height: 48px;
+    height: 55px;
     background-color: #0066CC;
 }
 
@@ -17,7 +17,7 @@ li.navigationItem {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 100%;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
     font-weight: bold;
 }

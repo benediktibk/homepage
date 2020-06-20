@@ -22,9 +22,10 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     background-color: #0066CC;
-    padding: 4px;
+    padding: 8px;
     text-decoration: none;
     margin-top: 50px;
+    font-size: 30px;
 }
 
 h3 {

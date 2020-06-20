@@ -1,3 +1,8 @@
 ﻿div#quote {
     display: none;
 }
+
+div#title {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}

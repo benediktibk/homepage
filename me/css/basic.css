@@ -36,16 +36,42 @@ h3 {
 }
 
 table {
-    border-width: 0px;
-    border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    border-collapse: collapse;
 }
 
 td {
     text-align: center;
     font-family: Georgia, serif;
     padding: 3px;
+    border-left: 2px solid #969696;
+}
+
+td.bigColumn {
+    width: 500px;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+th {
+    text-align: center;
+    font-family: Georgia, serif;
+    padding: 3px;
+    border-left: 2px solid #969696;
+}
+
+th:first-child {
+    border-left: none;
+}
+
+tr.header {
+    border-bottom: 2px solid #969696;
+    color: black;
+    background-color: #FFFFFF;
 }
 
 tr.odd {
@@ -55,7 +81,7 @@ tr.odd {
 
 tr.even {
     color: black;
-    background-color: #96CBFF;
+    background-color: #c3dffa;
 }
 
 a.anchor {

@@ -15,12 +15,6 @@ ul#navigation {
     margin: 0px;
 }
 
-li.navigationItem {
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 li.navigationItem a {
     color: white;
     text-decoration: none;

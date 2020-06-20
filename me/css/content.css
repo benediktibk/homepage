@@ -1,11 +1,8 @@
-body {
-    width: 100%;
-}
-
 div#content {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 p#contactData {
@@ -45,4 +42,5 @@ img.contentImage {
     height: 300px;
     width: auto;
     padding: 5px;
+    max-width: 95%;
 }

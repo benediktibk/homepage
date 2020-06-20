@@ -5,6 +5,10 @@ body {
     font-family: Georgia, serif;
 }
 
+div#body {
+    width: 100%;
+}
+
 p {
     text-align: justify;
     font-family: Georgia, serif;

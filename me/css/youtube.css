@@ -1,50 +1,24 @@
 .youtube-player {
-	position: relative;
-	height: 300px;
-	overflow: hidden;
-	max-width: 100%;
-	margin: 5px;
-}
-
-.youtube-player iframe {
-    margin-left: auto;
+	height: 360px;
+	width: 480px;
+	margin-left: auto;
     margin-right: auto;
-    display: block;
-	height: 100%;
-	z-index: 100;
-	background: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
 }
 
 .youtube-player img {
-	bottom: 0;
-	display: block;
-	left: 0;
-	margin: auto;
-	max-width: 100%;
-	height: 300px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	border: none;
-	height: auto;
-	cursor: pointer;
-	-webkit-transition: .4s all;
-	-moz-transition: .4s all;
-	transition: .4s all;
+    height: 100%;
+    width: auto;
 }
 
-.youtube-player img:hover {
-	-webkit-filter: brightness(75%);
-}
-
-.youtube-player .play {
-	height: 72px;
-	width: 72px;
-	left: 50%;
-	top: 50%;
-	margin-left: -36px;
-	margin-top: -36px;
-	position: absolute;
-	background: url("../pic/play.jpg") no-repeat;
-	cursor: pointer;
+div#youtubePlay {
+    background-image: url("../pic/play.png");
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    left: 215px;
+    top: 162px;
+    z-index: 2;
 }

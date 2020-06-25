@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",
+/*document.addEventListener("DOMContentLoaded",
         function() {
             var div, n,
                 v = document.getElementsByClassName("youtube-player");
@@ -24,4 +24,4 @@ document.addEventListener("DOMContentLoaded",
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "1");
         this.parentNode.replaceChild(iframe, this);
-    }
+    });*/

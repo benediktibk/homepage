@@ -22,3 +22,8 @@ div#youtubePlay {
     top: 162px;
     z-index: 2;
 }
+
+.frame-player {
+    height: 360px;
+    width: 480px;
+}

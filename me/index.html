@@ -19,7 +19,17 @@
     <link rel="stylesheet" type="text/css" href="css/navigation-medium.css" media="screen and (min-width: 521px) and (max-width: 1200px)" />
     <link rel="stylesheet" type="text/css" href="css/navigation-big.css" media="screen and (min-width: 1201px)" />
     <link rel="stylesheet" type="text/css" href="css/impressum.css" />
-    <script src="script/youtube.js"></script>
+    <script>
+        function playVideo(videoId, divContainer) {
+            var iframe = document.createElement("iframe");
+            var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+            iframe.setAttribute("src", embed.replace("ID", videoId));
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "1");
+            iframe.setAttribute("class", "frame-player");
+            divContainer.parentNode.parentNode.replaceChild(iframe, divContainer.parentNode);
+        }
+    </script>
     <title>Benedikt Schmidt</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
@@ -136,15 +146,30 @@
             <p>Aufgabe in diesem Kurs war es mit einem Roboter Hockey zu spielen und ein Endturnier zu gewinnen. Den Code hierfür kann ich leider nicht veröffentlichen, da eines der Teammitglieder dies nicht wünscht. Dafür gibt es die Videos vom Turnier auf YouTube zu sehen.</p>
 
             <div class="notForSmall">
-                <div class="youtube-player" data-id="2-74lNZzx8g"><img src="pic/youtube-2-74lNZzx8g.jpg"/><div id="youtubePlay"></div></div>
-                <div class="youtube-player" data-id="fTpH9mxKjkM"><img src="pic/youtube-fTpH9mxKjkM.jpg" /><div id="youtubePlay"></div></div>
+                <div class="youtube-player">
+                    <div class="youtube-player-container">
+                        <img src="pic/youtube-2-74lNZzx8g.jpg" />
+                        <div id="youtubePlay" onclick="playVideo('2-74lNZzx8g', this)"></div>
+                    </div>
+                </div>
+                <div class="youtube-player">
+                    <div class="youtube-player-container">
+                        <img src="pic/youtube-fTpH9mxKjkM.jpg" />
+                        <div id="youtubePlay" onclick="playVideo('fTpH9mxKjkM', this)"></div>
+                    </div>
+                </div>
             </div>
 
             <h3>RoboSoccer Laboratory</h3>
             <p>Im Masterstudiengang Elektro- und Informationstechnik gibt es dann noch einen weiteren Kurs, ähnlich dem Leistungskurs C++. Der eklatante Unterschied ist allerdings, dass man mit viel kleineren Robotern arbeitet und zudem insgesamt drei Spieler pro Team zur Verfügung hat. Somit liegt der Fokus in diesem Kurs eher auf der Teamkoordination. Von diesem Kurs gibt es sowohl den Code auf <a href="https://bitbucket.org/benediktibk/robosoccer/src/master/">Bitbucket</a> als auch ein Video.</p>
 
             <div class="notForSmall">
-                <div class="youtube-player" data-id="ikmT7Obq31E"></div>
+                <div class="youtube-player">
+                    <div class="youtube-player-container">
+                        <img src="pic/youtube-ikmT7Obq31E.jpg" />
+                        <div id="youtubePlay" onclick="playVideo('ikmT7Obq31E', this)"></div>
+                    </div>
+                </div>
             </div>
 
             <h3>Corona Spreadviewer</h3>
